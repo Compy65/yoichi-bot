@@ -1,21 +1,21 @@
 {
-  "name": "yoichi-bot",
+  "name": "ryo-bot",
   "version": "1.0.0",
-  "description": "yoichi bot pro monasterio",
+  "description": "ryo bot pro monasterio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saadbruno/yoichi-bot.git"
+    "url": "git+https://github.com/capitaovolupia/ryo-bot.git"
   },
-  "author": "SaadBruno",
+  "author": "SaadBrunoAndCapitaoVolupia",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/saadbruno/yoichi-bot/issues"
+    "url": "https://github.com/capitaovolupia/ryo-bot/issues"
   },
-  "homepage": "https://github.com/saadbruno/yoichi-bot#readme",
+  "homepage": "https://github.com/capitaovolupia/ryo-bot#readme",
   "dependencies": {
     "discord.js": "^12.5.1"
   }
