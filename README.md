@@ -1,4 +1,4 @@
-# Yoichi Bot
+# Ryo Bot (fork do yoichi)
 Um bot do Discord que reage a menções de seu nome. Feito de brincadeira para o Discord do [Monastério Gentileza](https://discord.gg/cyWp3KEwtc), de Monge Han.
 
 ![screenshot do bot em funcionamento](https://user-images.githubusercontent.com/23201434/111733997-ef1b2d00-8857-11eb-85e9-3550ddc9c4cf.png)
