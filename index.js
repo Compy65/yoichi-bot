@@ -10,19 +10,21 @@ const client = new Discord.Client();
 
 
 client.on('ready', () => {
-  console.log('YOICHI LIVES!');
+  console.log('RYO LIVES!');
 });
 
 // Create an event listener for messages
 client.on('message', message => {
-  if (message.content.toLowerCase().includes("yoichi")) {
-    message.react(config.emoteBrabo);
+  if (message.content.toLowerCase().includes("daddy help")) {
+    message.react(config.bracao);
+    message.channel.send("AGUENTE FIRME ESTOU INDO!");
   }
-  if (message.content.toLowerCase().includes("caleb")) {
+  if (message.content.toLowerCase().includes("daddy")) {
     message.react(config.emoteEnvergonhado);
   }
-  if (message.mentions.has(client.user)) {
-    message.channel.send("<" + config.emoteBrabo + ">");
+  if (message.mentions.has(client.user) && !(message.content.toLowerCase().includes("daddy help")))   {
+    message.channel.send("Precisa da minha ajuda ajuda?");
+    message.react(config.ryo);
   }
 });
 
